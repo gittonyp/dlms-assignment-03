@@ -1,0 +1,16 @@
+{
+  "name": "dlms-assignment-03",
+  "version": "1.0.0",
+  "description": "Digital Library Management System — Agile version-control workflow (Assignment 03)",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage",
+    "summary": "node scripts/merged_summary.js"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.3",
+    "vitest": "^5.0.3"
+  }
+}
